@@ -106,7 +106,7 @@ function selectWinner(){
             resultBox.classList.add("show");
             playBoard.classList.remove("show");
         }, 700);
-        wonText.innerHTML = `user ${playerSign}<br> won.`;
+        wonText.innerHTML = `Player ${playerSign}<br> won the game!`;
     }
     else{
         // if the board is full
@@ -119,7 +119,7 @@ function selectWinner(){
                 resultBox.classList.add("show");
                 playBoard.classList.remove("show");
             }, 700);
-            wonText.textContent = "drawn.";
+            wonText.textContent = "Match has been drawn!";
         }
     }
 }
